@@ -1,0 +1,42 @@
+{
+  "name": "@sigodenjs/fetch-factory",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "fetch",
+    "factory"
+  ],
+  "homepage": "https://github.com/sigoden/fetch-factory",
+  "bugs": {
+    "url": "https://github.com/sigoden/fetch-factory/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sigoden/fetch-factory.git"
+  },
+  "author": "sigoden@gmail.com",
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "babel src --watch --out-dir dist",
+    "build": "babel src --out-dir dist",
+    "lint": "eslint --fix .",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.7.1",
+    "prettier": "^1.17.0"
+  }
+}
